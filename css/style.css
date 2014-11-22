@@ -1,0 +1,91 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Serif:400,400italic);
+
+body {
+	font-family:14px/1.4 'PT Serif', serif;
+	margin: 0;
+	padding: 0;
+	background-image: url('../img/bg.png');
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: blue;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.container {
+	position: relative;
+	background: #f4f4f4;
+	margin: 0 auto;
+	width: 960px;
+	box-shadow
+
+	: 0 0 20px #000;
+}
+
+article div{
+	padding: 20px;
+}
+
+#img1, #img2 {
+	max-width: 960px;
+}
+
+h2 {
+	color: #ff0000;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: 500;
+	margin-top: 20px;
+	margin-bottom: -7px;
+}
+
+p {
+	margin: 15px 0;
+}
+
+p span {
+	color: blue;
+}
+
+ul#who li, ul#tire li {
+	list-style-type: none;
+}
+
+ul#tire li:before {
+content: "- ";
+}
+
+
+#gal img {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+
+#number {
+	font-weight: 500;
+	font-size: 30px;
+	top: 30px;
+	left: 40px;
+	position: absolute;
+}
+
+footer {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+hr {
+
+	padding-top: 10px;
+	margin: 0 auto;
+	width: 800px;
+}
+
+span.city {
+	font-size: 14px;
+}
